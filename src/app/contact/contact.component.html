@@ -1,0 +1,44 @@
+<div id="contact" class=" vh-100 mt-5 pt-5 d-flex justify-content-center">
+  <div class="container text-center">
+    <h1 class="mt-5">CONTACT COMPONENT</h1>
+    <div class="img-frem text-center">
+      <div _ngcontent-hjr-c6="" class="d-flex align-items-center justify-content-center mb-3">
+        <div _ngcontent-hjr-c6="" class="line me-3" style="background-color: #2C3E50;"></div><i _ngcontent-hjr-c6=""
+          class="fa-solid fa-star"></i>
+        <div _ngcontent-hjr-c6="" class="line ms-3" style="background-color: #2C3E50;">
+        </div>
+      </div>
+    </div>
+    <form class="w-75 m-auto mt-5 pt-5">
+      <div class="mb-5" id="form-group">
+        <input type="userName" [(ngModel)]="inputValue" (focus)="onInputFocus" (blur)="onInputBlur"
+          placeholder="userName :" class="form-control border-0 border-bottom py-3 border-0 border-bottom py-3 "
+          id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="userName" [class.active]="isInputFocus || inputValue">userName :</label>
+      </div>
+      <div class="mb-5" id="form-group">
+        <input type="userAge" [(ngModel)]="inputValue" (focus)="onInputFocus" (blur)="onInputBlur"
+          placeholder="userAge :" class="form-control border-0 border-bottom py-3" id="exampleInputEmail1"
+          aria-describedby="emailHelp">
+        <label for="userAge" [class.active]="isInputFocus || inputValue">userAge :</label>
+
+      </div>
+      <div class="mb-5" id="form-group">
+        <input type="userEmail" [(ngModel)]="inputValue" (focus)="onInputFocus" (blur)="onInputBlur"
+          placeholder="userEmail :" class="form-control border-0 border-bottom py-3" id="exampleInputEmail1"
+          aria-describedby="emailHelp">
+        <label for="userName" [class.active]="isInputFocus || inputValue">userEmail :</label>
+
+      </div>
+      <div class="mb-5" id="form-group">
+        <input type="password" [(ngModel)]="inputValue" (focus)="onInputFocus" (blur)="onInputBlur"
+          class="form-control border-0 border-bottom py-3" placeholder="Password :" id="exampleInputPassword1">
+        <label for="userName" [class.active]="isInputFocus || inputValue">Password :</label>
+
+      </div>
+      <div class="mb-5 form-check">
+      </div>
+      <button type="submit" class="btn btn-primary w-25">Submit</button>
+    </form>
+  </div>
+</div>

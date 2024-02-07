@@ -1,0 +1,38 @@
+
+
+
+.active{
+  background-color:#1ABC9C ;
+  border-radius: 10px;
+  color: rgb(238, 238, 238) !important;
+  
+}
+
+.navbar-brand{
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+  right: 0 ;
+  top: 0;
+  left: 0;
+  height: 100px;
+  background-color: #2C3E50 !important;
+  transition: all 0.3s ease;
+}
+.nav-link{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.container{
+  background-color: #2C3E50 ;
+}
+
+.navbar.scrolled{
+  height: 80px;
+}

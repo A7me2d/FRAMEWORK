@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top z-3" [ngClass]="{ 'scrolled': isScrolled }">
+  <div class="container">
+    <a class="navbar-brand" href="home">START FRAMEWORK</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav ms-auto mt-2 mt-sm-0">
+
+        <li class="nav-item ">
+          <a class="nav-link px-3" routerLink="about" routerLinkActive="active">ABOUT</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link px-3" routerLink="portfolio" routerLinkActive="active">PORTFOLIO</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link px-3" routerLink="contact" routerLinkActive="active">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

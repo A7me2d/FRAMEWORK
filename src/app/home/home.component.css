@@ -1,0 +1,22 @@
+#home{
+    background-color: #1ABC9C;
+}
+
+.line[_ngcontent-hjr-c6] {
+    height: 4px;
+    width: 80px;
+}
+/* class="line m-auto" style="background-color: white;" */
+
+.img-frem i::after{
+    background-color: azure;
+    width: 5px;
+    height: 5px;
+
+}
+
+h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
